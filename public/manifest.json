@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "MeTime",
+  "version": "1.0.0",
+  "description": "Media Timer that shuts off media services for the day after a certain amount of time. Media can be grouped, and messages when time limit has been hit can be customized.",
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
